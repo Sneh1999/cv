@@ -20,259 +20,172 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
-  summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  name: "Sneh Koul",
+  initials: "",
+  location: "",
+  locationLink: "",
+  about: "",
+  summary: "Blockchain Engineer/Software Engineer who loves to build cool shit",
+  avatarUrl: "./profile.jpeg",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "snehkoul1999@gmail.com",
+    tel: "5197292137",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Sneh1999",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/snehkoul/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/snoopies_eth",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Waterloo",
+      degree: "Bachelor's Degree in Computer Engineering with a distinction",
+      start: "",
+      end: "",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Coinbase",
+      link: "https://www.coinbase.com/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      title: "Software Engineer",
+      logo: "./coinbaseLogo.png",
+      description: `\u2022 Engineered a robust service leveraging Golang, gRPC, Postgres, to detect, analyze transactions associated with malicious addresses or known hackers. 
+\u2022 Lead the development of a privacy-centric cookie management and third-party tracking service for Coinbase.com and the mobile app, integrating React, Typescript, Golang, and Postgres.
+\u2022 Contributed to the open-source community by creating the 'build-on-chain-apps' package ([github.com/coinbase/build-onchain-apps]). This resourceful toolkit empowers developers to bootstrap their first web3 project  
+\u2022 Utilized Kafka and Golang to generate risk scores for transfers from cold storage to users' wallets. This initiative played a pivotal role in ensuring enhanced security protocols, safeguarding user assets during transactions.`,
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "MetaMask",
+      link: "https://metamask.io/",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Sofware Engineer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      description: `\u2022 Spearheaded the implementation of a pivotal feature that automatically redirects users to the dApp post-installation of MetaMask, leveraging TypeScript.
+\u2022 Helped migrate the MetaMask extension from JavaScript to TypeScript, enhancing codebase consistency, readability, and maintainability.
+\u2022 Worked on comprehensive testing utilizing Selenium and Jest to rigorously test the functionality of the MetaMask extension across all ethersJs functions.`,
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Arctic Wolf Networks",
+      link: "https://arcticwolf.com/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
+      title: "Software Engineer",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+      description: `\u2022 Developed and managed Golang backend APIs for a vulnerabilities tracking application.
+\u2022 Implemented user facing features in a React+Redux application, enhancing user experience.
+\u2022 Optimized deployment processes by setting up CI/CD pipelines via GitHub actions, resulting in reduced deployment time.
+\u2022 Orchestrated deployment of services as Docker containers on AWS-managed Kubernetes clusters, ensuring scalability and efficiency in operations.`,
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "LearnWeb3",
+      link: "https://learnweb3.io/",
       badges: [],
-      title: "C/C++ Developer",
+      title: "Software Engineer",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      description: `\u2022 Developed open-source learning codebases in NextJS, React, and Typescript, covering key web3 topics: Abstraction, ZK, MEV, NFTs, DeFi (https://github.com/LearnWeb3DAO/smart-contract-wallet)
+\u2022 Contributed to establishing a leading web3 learning community, reaching 100,000+ students, fostering education, and collaboration in decentralized technologies.`,
+    },
+    {
+      company: "Agilicus",
+      link: "https://www.agilicus.com/",
+      badges: [],
+      title: "Software Engineer",
+      logo: NSNLogo,
+      description: `\u2022 Developed REST APIs based on OpenAPI specifications, integrating OAuth 2.0 authentication flows for enhanced security.
+\u2022 Streamlined deployment by implementing CI/CD pipelines through GitHub actions, reducing deployment time.
+\u2022 Developed monitors to detect issues and downtime using Prometheus, ElasticSearch, and Kibana for effective tracking.
+\u2022 Managed deployment of services as Docker containers on Google Cloud Platform's Kubernetes clusters, ensuring scalability and operational efficiency.`,
     },
   ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+  languages: ["JavaScript", "TypeScript", "Golang", "Solidity ", "Python"],
+  blockchainTools: ["Viem", "WAGMI", "Ethers", "Hardhat", "Foundry"],
+  cloudAndDatabases: [
+    "Docker",
+    "AWS",
+    "Kubernetes",
+    "MongoDB",
+    "Postgres",
+    "Github CI/CD",
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      title: "caip-extended ",
+      techStack: ["TypeScript", "Open Source"],
+      description:
+        "TypeScript reference implementation for CASA’s (Chain Agnostic Standard Association) standards to house multiple namespace-specific standard-compliant interfaces",
+      logo: "./casaLogo.jpeg",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "",
+        href: "https://github.com/ChainAgnostic/caip-extended",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "🏆 bridge-kit @Coinbase Hackathon Finalist",
+      techStack: ["NextJS", "TypeScript"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Created a plug-and-play React library to offer an in-app bridging and swapping experience within any dApp",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
-        href: "https://monito.dev/",
+        href: "https://github.com/Sneh1999/BridgeKit",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "🏆 Defi-dy @ETH Waterloo Sponsor Prizes",
+      techStack: ["Solidity", "Typescript"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Developed a futures protocol to invest in the performance of DeFi protocols",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://devpost.com/software/defy-dy",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "🏆 Cygnus  @EthNewYork Sponsor Prizer",
+      techStack: ["Solidity", "Typescript"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Cygnus is a mechanism that provides a reliable signaling of community preference without arbitrarily defining stakeholder groups or falling victim to plutocracy.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "Cygnus",
+        href: "https://devpost.com/software/zaqar",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "🏆 NFTTea Room @ Finalist ETH Denver",
+      techStack: ["Side Project", "Next.js", "Solidity"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+        "A platform and DAO to supply and decide accurate pricing information for NFTs using a decentralized and democratic voting process.",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "nftea-room",
+        href: "https://devfolio.co/projects/nftea-room-5944",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
+      title: "🏆 Flow Chat - Finalist at Flow Hackathon",
+      techStack: ["Side Project", "Swift", "Flow", "Cadence"],
+      description:
+        "Venmo for Flow - the easiest and quickest way to chat with friends, show off your NFTs, and transfer money.",
       logo: YearProgressLogo,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "flow",
+        href: "https://devfolio.co/projects/flow-chat-2576",
       },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;

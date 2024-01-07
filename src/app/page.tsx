@@ -122,16 +122,13 @@ export default function Page() {
                         ))}
                       </span>
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end}
-                    </div>
                   </div>
 
                   <h4 className="font-mono text-sm leading-none">
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 whitespace-pre text-xs">
                   {work.description}
                 </CardContent>
               </Card>
@@ -159,16 +156,33 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
+          <h2 className="text-xl font-bold">Languages</h2>
           <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
+            {RESUME_DATA.languages.map((skill) => {
+              return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div>
+        </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Blockchain Tools</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.blockchainTools.map((skill) => {
+              return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div>
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Cloud and Databases</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.cloudAndDatabases.map((skill) => {
               return <Badge key={skill}>{skill}</Badge>;
             })}
           </div>
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
+          <h2 className="text-xl font-bold">Projects/Hackathons</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
@@ -187,10 +201,6 @@ export default function Page() {
 
       <CommandMenu
         links={[
-          {
-            url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
-          },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,
