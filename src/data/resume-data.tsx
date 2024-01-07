@@ -29,7 +29,6 @@ export const RESUME_DATA = {
   avatarUrl: "./profile.jpeg",
   contact: {
     email: "snehkoul1999@gmail.com",
-    tel: "5197292137",
     social: [
       {
         name: "GitHub",
