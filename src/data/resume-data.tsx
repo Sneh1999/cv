@@ -63,7 +63,6 @@ export const RESUME_DATA = {
       title: "Software Engineer",
       logo: "./coinbaseLogo.png",
       description: `\u2022 Engineered a robust service leveraging Golang, gRPC, Postgres, to detect, analyze transactions associated with malicious addresses or known hackers. 
-\u2022 Lead the development of a privacy-centric cookie management and third-party tracking service for Coinbase.com and the mobile app, integrating React, Typescript, Golang, and Postgres.
 \u2022 Contributed to the open-source community by creating the 'build-on-chain-apps' package ([github.com/coinbase/build-onchain-apps]). This resourceful toolkit empowers developers to bootstrap their first web3 project  
 \u2022 Utilized Kafka and Golang to generate risk scores for transfers from cold storage to users' wallets. This initiative played a pivotal role in ensuring enhanced security protocols, safeguarding user assets during transactions.`,
     },
