@@ -1,4 +1,3 @@
-import { CommandMenu } from "@/components/command-menu";
 import { MarkdownRenderer } from "@/components/markdown-renderer";
 import { ProjectCard } from "@/components/project-card";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
@@ -172,15 +171,6 @@ export default function Page() {
           </div>
         </Section>
       </section>
-
-      <CommandMenu
-        links={[
-          ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
-            url: socialMediaLink.url,
-            title: socialMediaLink.name,
-          })),
-        ]}
-      />
     </main>
   );
 }
