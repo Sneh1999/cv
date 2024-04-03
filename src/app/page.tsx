@@ -66,10 +66,6 @@ export default function Page() {
               )}
             </div>
           </div>
-
-          <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-          </Avatar>
         </div>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
@@ -109,7 +105,7 @@ export default function Page() {
 
         <Section className="scroll-mb-16">
           <h2 className="print-force-new-page text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
