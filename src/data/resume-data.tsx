@@ -113,6 +113,16 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "UniCoW",
+      techStack: ["Solidity", "Typescript"],
+      description:
+        "A Uniswap v4 hook combined with an EigenLayer AVS to enable coincidence of wants on Uniswap v4.",
+      link: {
+        label: "Unicow",
+        href: "https://projects.atrium.academy/UniCow-c77ce355dc82424fbc43031e71de6ba1",
+      },
+    },
+    {
       title: "CAIP Extended",
       techStack: ["TypeScript", "Open Source"],
       description:
