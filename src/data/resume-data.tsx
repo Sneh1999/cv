@@ -40,8 +40,8 @@ export const RESUME_DATA = {
       badges: ["Golang", "Rust", "Solidity"],
       title: "Senior Software Engineer",
       description: `- Leading integration of Espresso Network and Arbitrum Nitro chains.
-      - Implemented initial version of decentralized Timeboost protocol.
-      - Worked on TEEs and secure enclaves for secure key management.`
+- Implemented initial version of decentralized Timeboost protocol.
+- Worked on TEEs and secure enclaves for secure key management.`
     },
     {
       company: "Coinbase",
