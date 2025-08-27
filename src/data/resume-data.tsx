@@ -35,6 +35,15 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Espresso Systems",
+      link: "https://www.espressosys.com/",
+      badges: ["Golang", "Rust", "Solidity"],
+      title: "Senior Software Engineer",
+      description: `- Leading integration of Espresso Network and Arbitrum Nitro chains.
+      - Implemented initial version of decentralized Timeboost protocol.
+      - Worked on TEEs and secure enclaves for secure key management.`
+    },
+    {
       company: "Coinbase",
       link: "https://www.coinbase.com/",
       badges: ["Cryptography", "Go", "gRPC", "Security", "AWS"],
