@@ -2,7 +2,9 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Sneh Koul",
-  about: "",
+  about: "A little about me: I genuinely love building software and appreciate a beautiful piece of code. I’m always happy to hear about something cool you’re working on.
+  I’ve taken part in more than 10 hackathons, won several of them, and earned promotions and bonuses along the way not just to build my résumé, but because I truly enjoy the craft.
+  I also love starting new projects and helping others explore bold ideas. You never know what might take off!",
   summary: "Software engineer with a curiousity to learn.",
   avatarUrl: "./profile.jpeg",
   contact: {
@@ -37,22 +39,32 @@ export const RESUME_DATA = {
     {
       company: "Espresso Systems",
       link: "https://www.espressosys.com/",
-      badges: ["Golang", "Rust", "Solidity"],
+      badges: ["Golang", "Rust", "Solidity", "TEE", "ZK"],
       title: "Senior Software Engineer",
-      description: `- Leading integration of Espresso Network and Arbitrum Nitro chains.
-- Implemented initial version of decentralized Timeboost protocol.
-- Worked on TEEs and secure enclaves for secure key management.`
+      description: `Led the integration of the Espresso Network with Arbitrum Nitro and the OP Stack, managing a team of five engineers.
+      The work involved Trusted Execution Environments for secure key management, SP1 integration for generating zero-knowledge proofs, and deep development within geth-based systems.
+      - Contributed to the Espresso Stack, a rollup framework for deploying rollups on the Espresso Network, working with Besu, Rust, and SP1.`
     },
     {
       company: "Coinbase",
       link: "https://www.coinbase.com/",
       badges: ["Cryptography", "Go", "gRPC", "Security", "AWS"],
-      title: "Software Engineer",
+      title: "Software Engineer 2",
       description: `- Brought an **80% performance** improvement and **saved six-figure on costs** for a **Go**/**gRPC**/**Postgres** service used for fraud detection for transactions on Coinbase and CB Wallet.
 - **Led** the project to conslidate privacy preferences for users across different platforms in response to regulatory changes and coordinated across ~5 multi-functional teams.
 - Contributed to the **key generation, management, and recovery** process for the **Bitcoin ETF** custody accounts at Coinbase for Blackrock and Grayscale.
 - Contributed to open-source by creating the [build-onchain-apps](https://github.com/coinbase/build-onchain-apps) package, to help developers get started building dApps quickly with best practices.
 - Contributed to a massive code migration of a legacy **Ruby** monolith to **Go** microservices.`,
+    },
+    },
+    {
+      company: "LearnWeb3",
+      link: "https://learnweb3.io/",
+      badges: ["Ethereum", "TypeScript", "Solidity", "Rust"],
+      title: "Software Engineer",
+      description: `- Developed open-source learning codebases in NextJS, React, and Typescript, covering key web3 topics: Account Abstraction, ZK, MEV, NFTs, DeFi, and more.
+- Contributed to establishing a leading web3 community, reaching ** 120,000 + students ** and fostering a friendly community culture.
+- Raised a million dollars from investors`,
     },
     {
       company: "MetaMask",
@@ -62,7 +74,7 @@ export const RESUME_DATA = {
       description: `- Spearheaded the implementation of a pivotal feature that automatically redirects users to the requesting dApp after first installation of MetaMask.
 - Migrated the MetaMask extension from **JavaScript** to **TypeScript**, enhancing consistency, readability, and long-term maintainability.
 - Added extensive end-to-end testing using **Selenium** and **Jest** to rigorously test the functionality of the MetaMask extension across all RPC methods and **web3.js** compatibility.`,
-    },
+  },
     {
       company: "Arctic Wolf Networks",
       link: "https://arcticwolf.com/",
@@ -72,14 +84,6 @@ export const RESUME_DATA = {
 - Implemented user facing features in a **React**/**TypeScript** application, enhancing user experience.
 - Optimized deployment processes by setting up CI/CD pipelines via **GitHub Actions**, resulting in reduced deployment time.
 - Orchestrated deployment of services as **Docker** containers on **AWS-managed Kubernetes** clusters, ensuring scalability and efficiency in operations.`,
-    },
-    {
-      company: "LearnWeb3",
-      link: "https://learnweb3.io/",
-      badges: ["Ethereum", "TypeScript", "Solidity", "Rust"],
-      title: "Software Engineer",
-      description: `- Developed open-source learning codebases in NextJS, React, and Typescript, covering key web3 topics: Account Abstraction, ZK, MEV, NFTs, DeFi, and more.
-- Contributed to establishing a leading web3 community, reaching **120,000+ students** and fostering a friendly community culture.`,
     },
     {
       company: "Agilicus",
@@ -92,11 +96,10 @@ export const RESUME_DATA = {
 - Managed deployment of services as **Docker** containers on **Google Cloud Platform's Kubernetes** clusters, ensuring scalability and operational efficiency.`,
     },
   ],
-  languages: ["TypeScript", "Go", "Solidity ", "Python", "Rust"],
+  languages: ["TypeScript", "Go",  "Rust", "Solidity ", "Python",],
   blockchainTools: [
     "viem",
     "wagmi",
-    "ethers-js",
     "Hardhat",
     "Foundry",
     "Graph",
@@ -113,13 +116,23 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "uniswap-sdk-monorepo",
+      techStack: ["Solidity", "Typescript"],
+      description:
+        "Worked with Uniswap to deveop a typescript sdk for interacting with Uniswap v4.",
+      link: {
+        label: "Unicow",
+        href: "https://github.com/Sneh1999/UniCow",
+      },
+    },
+    {
       title: "UniCoW",
       techStack: ["Solidity", "Typescript"],
       description:
         "A Uniswap v4 hook combined with an EigenLayer AVS to enable coincidence of wants on Uniswap v4.",
       link: {
         label: "Unicow",
-        href: "https://projects.atrium.academy/UniCow-c77ce355dc82424fbc43031e71de6ba1",
+        href: "https://github.com/Sneh1999/UniCow",
       },
     },
     {
@@ -130,16 +143,6 @@ export const RESUME_DATA = {
       link: {
         label: "",
         href: "https://github.com/ChainAgnostic/caip-extended",
-      },
-    },
-    {
-      title: "CB One Paymaster",
-      techStack: ["NextJS", "TypeScript"],
-      description:
-        "A paymaster to sponsor ERC-4337 UserOps on Base for users who are Coinbase One subscribers. Won Coinbase Onchain Winter hackathon.",
-      link: {
-        label: "monito.dev",
-        href: "https://github.com/Sneh1999/BridgeKit",
       },
     },
     {
