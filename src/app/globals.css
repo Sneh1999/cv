@@ -45,10 +45,6 @@
   }
 }
 
-.print-force-new-page {
-  page-break-before: always;
-}
-
 @page {
   size: auto;
   margin: 2mm;

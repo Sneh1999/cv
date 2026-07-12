@@ -1,6 +1,5 @@
 import { MarkdownRenderer } from "@/components/markdown-renderer";
 import { ProjectCard } from "@/components/project-card";
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -95,25 +94,27 @@ export default function Page() {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-2 whitespace-nowrap leading-none">
-                      <a className="hover:underline" href={work.link}>
-                        <span className="font-semibold">{work.company}</span>
-                        {", "}
-                        <span className="whitespace-nowrap">{work.title}</span>
-                      </a>
+                    <div className="flex flex-col gap-y-1">
+                      <h3 className="leading-none">
+                        <a className="hover:underline" href={work.link}>
+                          <span className="font-semibold">{work.company}</span>
+                          {", "}
+                          <span>{work.title}</span>
+                        </a>
+                      </h3>
 
-                      <span className="inline-flex gap-x-1 print:hidden">
+                      <div className="flex flex-wrap gap-1">
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="align-middle text-xs"
+                            className="align-middle text-xs print:px-1 print:py-0 print:text-[10px]"
                             key={badge}
                           >
                             {badge}
                           </Badge>
                         ))}
-                      </span>
-                    </h3>
+                      </div>
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2 whitespace-pre text-xs">
@@ -125,7 +126,7 @@ export default function Page() {
         </Section>
 
         <Section className="scroll-mb-16">
-          <h2 className="print-force-new-page text-xl font-bold">Projects</h2>
+          <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
             {RESUME_DATA.projects.map((project) => {
               return (
