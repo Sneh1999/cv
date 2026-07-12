@@ -95,11 +95,11 @@ export default function Page() {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-2 leading-none">
+                    <h3 className="inline-flex items-center justify-center gap-x-2 whitespace-nowrap leading-none">
                       <a className="hover:underline" href={work.link}>
                         <span className="font-semibold">{work.company}</span>
                         {", "}
-                        {work.title}
+                        <span className="whitespace-nowrap">{work.title}</span>
                       </a>
 
                       <span className="inline-flex gap-x-1 print:hidden">

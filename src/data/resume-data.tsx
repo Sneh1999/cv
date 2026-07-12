@@ -3,7 +3,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Sneh Koul",
   about: `A little about me: I genuinely love building software and appreciate a beautiful piece of code. I’m always happy to hear about something cool you’re working on.
-  I’ve taken part in more than 10 hackathons, won several of them, and earned promotions and bonuses along the way not just to build my résumé, but because I truly enjoy the craft.
+  I’ve taken part in more than 10 hackathons, won several of them, and earned promotions and bonuses along the way not just to build my resume, but because I truly enjoy the craft.
   I also love starting new projects and helping others explore bold ideas. You never know what might take off!`,
   summary: "Software engineer with a curiousity to learn.",
   avatarUrl: "./profile.jpeg",
@@ -42,8 +42,9 @@ export const RESUME_DATA = {
       badges: ["Golang", "Rust", "Solidity", "TEE", "ZK", "geth"],
       title: "Senior Software Engineer",
       description: `Led the integration of the Espresso Network with Arbitrum Nitro and the OP Stack, managing a team of five engineers.
-      The work involved Trusted Execution Environments for secure key management, SP1 integration for generating zero-knowledge proofs, and deep development within geth-based systems.
-      - Contributed to the Espresso Stack, a rollup framework for deploying rollups on the Espresso Network, working with Besu, Rust, and SP1.`
+The work involved Trusted Execution Environments for secure key management, SP1 integration for generating zero-knowledge proofs, and development within geth.
+
+- Contributed to the Espresso Stack, a rollup framework for deploying rollups on the Espresso Network, working with Besu, Rust, and SP1.`
     },
     {
       company: "Coinbase",
@@ -115,16 +116,6 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "uniswap-sdk-monorepo",
-      techStack: ["Solidity", "Typescript"],
-      description:
-        "Worked with Uniswap to deveop a typescript sdk for interacting with Uniswap v4.",
-      link: {
-        label: "Unicow",
-        href: "https://github.com/Sneh1999/UniCow",
-      },
-    },
-    {
       title: "UniCoW",
       techStack: ["Solidity", "Typescript"],
       description:
@@ -142,6 +133,16 @@ export const RESUME_DATA = {
       link: {
         label: "",
         href: "https://github.com/ChainAgnostic/caip-extended",
+      },
+    },
+    {
+      title: "uniswap-sdk-monorepo",
+      techStack: ["Solidity", "Typescript"],
+      description:
+        "Worked with Uniswap to deveop a typescript sdk for interacting with Uniswap v4.",
+      link: {
+        label: "Unicow",
+        href: "https://github.com/Sneh1999/UniCow",
       },
     },
     {
@@ -192,16 +193,6 @@ export const RESUME_DATA = {
       link: {
         label: "nftea-room",
         href: "https://devfolio.co/projects/nftea-room-5944",
-      },
-    },
-    {
-      title: "Indices.Fi",
-      techStack: ["Rust", "Next.js"],
-      description:
-        "An onchain index fund protocol to create, manage, invest in, and trade baskets of tokens on NEAR. Won NEAR MetaBuild III hackathon.",
-      link: {
-        label: "flow",
-        href: "https://devfolio.co/projects/flow-chat-2576",
       },
     },
   ],
