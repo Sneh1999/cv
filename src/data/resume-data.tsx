@@ -83,16 +83,6 @@ export const RESUME_DATA = {
 - Optimized deployment processes by setting up CI/CD pipelines via **GitHub Actions**, resulting in reduced deployment time.
 - Orchestrated deployment of services as **Docker** containers on **AWS-managed Kubernetes** clusters, ensuring scalability and efficiency in operations.`,
     },
-    {
-      company: "Agilicus",
-      link: "https://www.agilicus.com/",
-      badges: ["OpenAPI", "Python", "GCP"],
-      title: "Software Engineer",
-      description: `- Developed an **OAuth 2.0** server and auth flows, and the relevant REST APIs based on **OpenAPI** specifications.
-- Streamlined deployment by implementing CI/CD pipelines through **GitHub Actions**, reducing deployment time.
-- Developed monitors to detect issues and downtime using **Prometheus**, **ElasticSearch**, and **Kibana** for effective tracking.
-- Managed deployment of services as **Docker** containers on **Google Cloud Platform's Kubernetes** clusters, ensuring scalability and operational efficiency.`,
-    },
   ],
   languages: ["TypeScript", "Go",  "Rust", "Solidity ", "Python",],
   blockchainTools: [
@@ -161,36 +151,6 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://devpost.com/software/defy-dy",
-      },
-    },
-    {
-      title: "Cygnus",
-      techStack: ["Solidity", "Typescript"],
-      description:
-        "Cygnus is a mechanism that provides a reliable signaling of community preference without arbitrarily defining stakeholder groups. Won multiple ETH New York sponsor tracks.",
-      link: {
-        label: "Cygnus",
-        href: "https://devpost.com/software/zaqar",
-      },
-    },
-    {
-      title: "NFT Puzzle Thing",
-      techStack: ["Next.js", "Solidity"],
-      description:
-        "An onchain jigsaw game with randomized lootboxes, gas-free piece trading, and a real-time race to be the first to solve for 1/1 NFT prizes. Won multiple prizes at Scaling Ethereum 2022.",
-      link: {
-        label: "nftea-room",
-        href: "https://devfolio.co/projects/nftea-room-5944",
-      },
-    },
-    {
-      title: "NFTea Room",
-      techStack: ["Next.js", "Solidity"],
-      description:
-        "Crowdsourced democratic NFT price attestations protocol designed as a DAO. Won multiple sponsor tracks at ETH Denver 2020.",
-      link: {
-        label: "nftea-room",
-        href: "https://devfolio.co/projects/nftea-room-5944",
       },
     },
   ],
