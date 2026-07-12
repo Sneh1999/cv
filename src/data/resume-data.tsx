@@ -41,9 +41,8 @@ export const RESUME_DATA = {
       link: "https://www.espressosys.com/",
       badges: ["Golang", "Rust", "Solidity", "TEE", "ZK", "geth"],
       title: "Senior Software Engineer",
-      description: `Led the integration of the Espresso Network with Arbitrum Nitro and the OP Stack, managing a team of five engineers.
-The work involved Trusted Execution Environments for secure key management, SP1 integration for generating zero-knowledge proofs, and development within geth.
-
+      description: `- Led the integration of the Espresso Network with Arbitrum Nitro and the OP Stack, managing a team of five engineers.
+- The work involved Trusted Execution Environments for secure key management, SP1 integration for generating zero-knowledge proofs, and development within geth.
 - Contributed to the Espresso Stack, a rollup framework for deploying rollups on the Espresso Network, working with Besu, Rust, and SP1.`
     },
     {
