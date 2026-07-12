@@ -3,8 +3,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Sneh Koul",
   about: `A little about me: I genuinely love building software and appreciate a beautiful piece of code. I’m always happy to hear about something cool you’re working on.
-  I’ve taken part in more than 10 hackathons, won several of them, and earned promotions and bonuses along the way not just to build my resume, but because I truly enjoy the craft.
-  I also love starting new projects and helping others explore bold ideas. You never know what might take off!`,
+  I’ve taken part in more than 10 hackathons, won several of them, and earned promotions and bonuses along the way not just to build my resume, but because I truly enjoy the craft.`,
   summary: "Software engineer with a curiousity to learn.",
   avatarUrl: "./profile.jpeg",
   contact: {
