@@ -127,7 +127,7 @@ export const RESUME_DATA = {
       title: "uniswap-sdk-monorepo",
       techStack: ["Solidity", "Typescript"],
       description:
-        "Worked with Uniswap to deveop a typescript sdk for interacting with Uniswap v4.",
+        "Worked with Uniswap to develop a typescript sdk for interacting with Uniswap v4.",
       link: {
         label: "Unicow",
         href: "https://github.com/Sneh1999/UniCow",
