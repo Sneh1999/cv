@@ -2,9 +2,9 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Sneh Koul",
-  about: "A little about me: I genuinely love building software and appreciate a beautiful piece of code. I’m always happy to hear about something cool you’re working on.
+  about: `A little about me: I genuinely love building software and appreciate a beautiful piece of code. I’m always happy to hear about something cool you’re working on.
   I’ve taken part in more than 10 hackathons, won several of them, and earned promotions and bonuses along the way not just to build my résumé, but because I truly enjoy the craft.
-  I also love starting new projects and helping others explore bold ideas. You never know what might take off!",
+  I also love starting new projects and helping others explore bold ideas. You never know what might take off!`,
   summary: "Software engineer with a curiousity to learn.",
   avatarUrl: "./profile.jpeg",
   contact: {
@@ -39,7 +39,7 @@ export const RESUME_DATA = {
     {
       company: "Espresso Systems",
       link: "https://www.espressosys.com/",
-      badges: ["Golang", "Rust", "Solidity", "TEE", "ZK"],
+      badges: ["Golang", "Rust", "Solidity", "TEE", "ZK", "geth"],
       title: "Senior Software Engineer",
       description: `Led the integration of the Espresso Network with Arbitrum Nitro and the OP Stack, managing a team of five engineers.
       The work involved Trusted Execution Environments for secure key management, SP1 integration for generating zero-knowledge proofs, and deep development within geth-based systems.
@@ -55,7 +55,6 @@ export const RESUME_DATA = {
 - Contributed to the **key generation, management, and recovery** process for the **Bitcoin ETF** custody accounts at Coinbase for Blackrock and Grayscale.
 - Contributed to open-source by creating the [build-onchain-apps](https://github.com/coinbase/build-onchain-apps) package, to help developers get started building dApps quickly with best practices.
 - Contributed to a massive code migration of a legacy **Ruby** monolith to **Go** microservices.`,
-    },
     },
     {
       company: "LearnWeb3",
@@ -200,16 +199,6 @@ export const RESUME_DATA = {
       techStack: ["Rust", "Next.js"],
       description:
         "An onchain index fund protocol to create, manage, invest in, and trade baskets of tokens on NEAR. Won NEAR MetaBuild III hackathon.",
-      link: {
-        label: "flow",
-        href: "https://devfolio.co/projects/flow-chat-2576",
-      },
-    },
-    {
-      title: "Flow Chat",
-      techStack: ["Swift", "SwiftUI", "Flow", "Cadence"],
-      description:
-        "Venmo for Flow - the easiest and quickest way to chat with friends, show off your NFTs, and transfer money. Won category overall prize at Flow Hackathon S1.",
       link: {
         label: "flow",
         href: "https://devfolio.co/projects/flow-chat-2576",
