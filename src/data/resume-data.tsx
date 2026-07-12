@@ -60,9 +60,9 @@ export const RESUME_DATA = {
       link: "https://learnweb3.io/",
       badges: ["Ethereum", "TypeScript", "Solidity", "Rust"],
       title: "Software Engineer",
-      description: `- Developed open-source learning codebases in NextJS, React, and Typescript, covering key web3 topics: Account Abstraction, ZK, MEV, NFTs, DeFi, and more.
-- Contributed to establishing a leading web3 community, reaching ** 120,000 + students ** and fostering a friendly community culture.
-- Raised a million dollars from investors`,
+      description: `- Developed open-source learning codebases in **NextJS, React, and Typescript**, covering key web3 topics: Account Abstraction, **ZK, MEV, NFTs, DeFi**, and more.
+- Contributed to establishing a leading web3 community, reaching **120,000 + students** and fostering a friendly community culture.
+- Raised a **million dollars** from investors`,
     },
     {
       company: "MetaMask",
