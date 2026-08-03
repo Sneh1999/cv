@@ -2,8 +2,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Sneh Koul",
-  about: `A little about me: I genuinely love building software and appreciate a beautiful piece of code. I’m always happy to hear about something cool you’re working on.
-  I’ve taken part in more than 10 hackathons, won several of them, and earned promotions and bonuses along the way not just to build my resume, but because I truly enjoy the craft.`,
+  about: `Software engineer who cares about building impactful products, clean code, and passionate work. I do Rust, Go, and TypeScript.`,
   summary: "Software engineer with a curiousity to learn.",
   avatarUrl: "./profile.jpeg",
   contact: {
@@ -38,31 +37,48 @@ export const RESUME_DATA = {
     {
       company: "Espresso Systems",
       link: "https://www.espressosys.com/",
-      badges: ["Golang", "Rust", "Solidity", "TEE", "ZK", "geth"],
-      title: "Senior Software Engineer",
-      description: `- Led the integration of the Espresso Network with **Arbitrum Nitro** and the **OP Stack**, managing a team of **five engineers**.
-- The work involved **Trusted Execution Environments** for secure key management, **SP1** integration for generating **zero-knowledge proofs**, and development within **geth**.
-- Contributed to the **Espresso Stack**, a rollup framework for deploying rollups on the Espresso Network, working with **Besu, Rust, and SP1**.`
+      badges: [
+        "Golang",
+        "Rust",
+        "Arbitrum Nitro",
+        "OP Stack",
+        "TEE",
+        "ZK",
+      ],
+      roles: [
+        {
+          title: "Team Lead",
+          description: `- Led the architecture and delivery of Espresso Network's integration with **Arbitrum Nitro**, enabling adoption across **10+ rollup chains**.
+- Managed and provided technical direction to a team of **five engineers**, driving execution across sequencer infrastructure, L1 contracts, and the Arbitrum geth fork.
+- Architected a trust-minimized integration using **TEEs**, including **AWS Nitro Enclaves, Intel SGX, and Intel TDX**, across Golang infrastructure and Solidity contracts.
+- Introduced **Succinct's SP1 zero-knowledge proofs** for TEE attestations, reducing verification costs by **300x**.`,
+        },
+        {
+          title: "Senior Software Engineer",
+          description: `- Built core components of the **Espresso Stack**, a framework for launching rollups on Espresso using **Besu, Rust, and Succinct's SP1**.
+- Drove Espresso's **OP Stack** integration across op-geth, op-node, and Kona, contributing production infrastructure in **Golang and Rust**.`,
+        },
+      ],
     },
     {
       company: "Coinbase",
       link: "https://www.coinbase.com/",
-      badges: ["Cryptography", "Go", "gRPC", "Security", "AWS"],
-      title: "Software Engineer 2",
-      description: `- Brought an **80% performance** improvement and **saved six-figure on costs** for a **Go**/**gRPC**/**Postgres** service used for fraud detection for transactions on Coinbase and CB Wallet.
-- **Led** the project to conslidate privacy preferences for users across different platforms in response to regulatory changes and coordinated across ~5 multi-functional teams.
-- Contributed to the **key generation, management, and recovery** process for the **Bitcoin ETF** custody accounts at Coinbase for Blackrock and Grayscale.
-- Contributed to open-source by creating the [build-onchain-apps](https://github.com/coinbase/build-onchain-apps) package, to help developers get started building dApps quickly with best practices.
-- Contributed to a massive code migration of a legacy **Ruby** monolith to **Go** microservices.`,
+      badges: ["Cryptography", "Go", "gRPC", "GraphQL", "Security", "AWS", "TypeScript", "React"],
+      title: "Software Engineer IV",
+      description: `- Led a regulatory-critical consolidation of privacy preferences across web and mobile platforms, coordinating execution across approximately **five cross-functional teams**.
+- Re-architected a high-volume **Go, gRPC, and Postgres** fraud-detection service, improving performance by **80%** and delivering **six-figure annual cost savings**.
+- Contributed to the secure key generation, management, and recovery systems supporting Coinbase's **Bitcoin ETF custody** for BlackRock and Grayscale.
+- Created and open-sourced [**build-onchain-apps**](https://github.com/coinbase/build-onchain-apps), giving developers a production-ready foundation for building decentralized applications.
+- Helped modernize Coinbase's backend architecture by migrating critical functionality from a legacy **Ruby monolith** to **Go microservices**.`,
     },
     {
       company: "LearnWeb3",
       link: "https://learnweb3.io/",
-      badges: ["Ethereum", "TypeScript", "Solidity", "Rust"],
+      badges: ["Ethereum", "TypeScript", "Solidity", "Rust", "Postgres", "GraphQL"],
       title: "Software Engineer",
-      description: `- Developed open-source learning codebases in **NextJS, React, and Typescript**, covering key web3 topics: Account Abstraction, **ZK, MEV, NFTs, DeFi**, and more.
-- Contributed to establishing a leading web3 community, reaching **120,000 + students** and fostering a friendly community culture.
-- Raised a **million dollars** from investors`,
+      description: `- Built open-source educational platforms and reference implementations covering **account abstraction, zero-knowledge proofs, MEV, NFTs, and DeFi** using Next.js, TypeScript, Solidity, and Rust.
+- Helped scale LearnWeb3 into a leading developer education platform serving more than **120,000 students** worldwide.
+- Contributed to the company's early growth and technical execution, supporting a successful **$1 million fundraising round**.`,
     },
     {
       company: "MetaMask",

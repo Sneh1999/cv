@@ -98,8 +98,12 @@ export default function Page() {
                       <h3 className="leading-none">
                         <a className="hover:underline" href={work.link}>
                           <span className="font-semibold">{work.company}</span>
-                          {", "}
-                          <span>{work.title}</span>
+                          {"title" in work ? (
+                            <>
+                              {", "}
+                              <span>{work.title}</span>
+                            </>
+                          ) : null}
                         </a>
                       </h3>
 
@@ -117,8 +121,28 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2 whitespace-pre text-xs">
-                  <MarkdownRenderer>{work.description}</MarkdownRenderer>
+                <CardContent className="mt-2 text-xs">
+                  {"roles" in work ? (
+                    <div className="space-y-3">
+                      {work.roles.map((role, index) => (
+                        <section
+                          className={
+                            index === 0 ? "" : "border-t border-gray-200 pt-3"
+                          }
+                          key={role.title}
+                        >
+                          <h4 className="mb-2 border-l-2 border-gray-900 pl-2 text-sm font-bold leading-none tracking-tight">
+                            {role.title}
+                          </h4>
+                          <MarkdownRenderer>
+                            {role.description}
+                          </MarkdownRenderer>
+                        </section>
+                      ))}
+                    </div>
+                  ) : (
+                    <MarkdownRenderer>{work.description}</MarkdownRenderer>
+                  )}
                 </CardContent>
               </Card>
             );
