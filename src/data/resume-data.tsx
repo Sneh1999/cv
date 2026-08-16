@@ -39,6 +39,7 @@ export const RESUME_DATA = {
       link: "https://www.espressosys.com/",
       badges: [
         "Golang",
+        "Solidity",
         "Rust",
         "Arbitrum Nitro",
         "OP Stack",
@@ -50,6 +51,7 @@ export const RESUME_DATA = {
           title: "Team Lead",
           description: `- Led the architecture and delivery of Espresso Network's integration with **Arbitrum Nitro**, enabling adoption across **10+ rollup chains**.
 - Managed and provided technical direction to a team of **five engineers**, driving execution across sequencer infrastructure, L1 contracts, and the Arbitrum geth fork.
+- Developed integration contracts and migration scripts using **Foundry and Solidity**.
 - Architected a trust-minimized integration using **TEEs**, including **AWS Nitro Enclaves, Intel SGX, and Intel TDX**, across Golang infrastructure and Solidity contracts.
 - Introduced **Succinct's SP1 zero-knowledge proofs** for TEE attestations, reducing verification costs by **300x**.`,
         },
